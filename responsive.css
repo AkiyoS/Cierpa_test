@@ -1,0 +1,46 @@
+/* iPad */
+@media all and (max-width: 768px){
+    
+    .service {
+        flex-direction: column;
+        align-items: center;
+        margin: 75px auto 0;
+    }
+
+    .content {
+        margin-bottom: 40px;
+    }
+}
+
+/* iPhoneX */
+@media all and (max-width: 375px){
+
+    .description > p {
+        width: 300px;
+        text-align: center;
+    }
+    
+
+    form {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .name ,.mail ,.q {
+        flex-direction: column;
+        width: 300px;
+        margin: 0 auto;
+        align-items: center;
+    }
+    
+    .name > p, .mail > p, .q > p {
+        text-align: center;
+    }
+    
+    #name, #mail, #q {
+        width: 300px;
+        margin-bottom: 40px;
+        font-size: 14px;
+    }
+ 
+}

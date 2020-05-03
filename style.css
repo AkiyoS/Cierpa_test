@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+section {
+    width:100%;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    height: 100px;
+}
+
+.topImg {
+    background-image: url(./img/aaa.png);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: top;
+}
+
+.topImg > p {
+    color: white;
+    font-weight: bolder;
+    text-shadow: 3px 3px 1px darkslategray;
+    position: relative;
+    top:40%;
+    left:0%;
+    text-align: center;
+    font-family: serif;
+    font-size: 32px;
+}
+
+.description , .footer {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#contact {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.description > p {
+    width: 640px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.service {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 75px;
+}
+
+.content {
+    width: 300px;
+    height: 300px;
+    background-color: lightyellow;
+    border-radius: 300px;
+}
+
+.note {
+    font-size: 14px;
+}
+
+.icon > img {
+    width: 150px;
+}
+
+form {
+    width: 640px;
+    margin: 0 auto;
+}
+
+.name ,.mail ,.q {
+    display: flex;
+    width: 640px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.name > p, .mail > p, .q > p {
+    margin: 20px;
+    width: 140px;
+    text-align: right;
+}
+
+#name, #mail, #q {
+    width: 500px;
+    margin-bottom: 40px;
+    font-size: 14px;
+}
+
+#name , #mail {
+    height: 60px;
+}
+
+#submit {
+    display: block;
+    width: 200px;
+    height: 50px;
+    background-color: gray;
+    color: #fff;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 14px;
+}
+
+#submit:hover {
+    opacity: 0.8;
+}
